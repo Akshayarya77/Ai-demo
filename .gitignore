@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local resume-analysis reports
+data/
+*.sqlite3
+*.sqlite3-journal
