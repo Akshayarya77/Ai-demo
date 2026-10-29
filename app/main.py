@@ -37,6 +37,9 @@ with st.form("resume_form"):
         max_chars=30_000,
         help="Enter at least 50 characters. Direct identifiers are not needed.",
     )
+
+# text
+
     save_to_history = st.checkbox(
         "Save this generated analysis to local history",
         value=False,
